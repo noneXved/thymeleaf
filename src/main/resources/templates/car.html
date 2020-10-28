@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello world title!</title>
+</head>
+<body>
+    <h2>
+        Witej w swiecie Spring'a!
+    </h2>
+
+    <p th:text="${name}"></p>
+    <p th:text="${car.getModel()}"></p>
+    <p th:text="${car.getMark()}"></p>
+<!--    <p th:text="${car.getMark}"></p>-->
+</body>
+</html>
